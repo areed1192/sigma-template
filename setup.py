@@ -1,4 +1,5 @@
-from setuptools import setup, find_packages
+from setuptools import setup
+from setuptools import find_namespace_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -13,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     url='',
     install_requires=[],
-    packages=find_packages(include=[]),
+    packages=find_namespace_packages(include=[]),
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Financial and Insurance Industry',
