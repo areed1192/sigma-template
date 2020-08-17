@@ -7,10 +7,8 @@ config = ConfigParser()
 config.add_section('main')
 
 # Set the Values.
-config.set('main', 'API_KEY', '')
-config.set('main', 'CHANNEL_ID', '')
-config.set('main', 'PLAYLIST_ID', '')
+config.set('main', 'api_key', '')
 
 # Write the file.
-with open('configs/config.ini', 'w+') as f:
+with open(file='configs/config.ini', mode='w+') as f:
     config.write(f)
