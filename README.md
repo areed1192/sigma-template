@@ -11,6 +11,17 @@
 
 ## Setup
 
+**Setup - Requirements Install:***
+
+For this particular project, you only need to install the dependencies, to use the project. The dependencies
+are listed in the `requirements.txt` file and can be installed by running the following command:
+
+```console
+pip install -r requirements.txt
+```
+
+After running that command, the dependencies should be installed.
+
 **Setup - Local Install:**
 
 If you are planning to make modifications to this project or you would like to access it
@@ -63,7 +74,9 @@ Here is a simple example of using the `place_holder` library.
 ## Support These Projects
 
 **Patreon:**
-Help support this project and future projects by donating to my [Patreon Page](https://www.patreon.com/sigmacoding). I'm always looking to add more content for individuals like yourself, unfortuantely some of the APIs I would require me to pay monthly fees.
+Help support this project and future projects by donating to my [Patreon Page](https://www.patreon.com/sigmacoding). I'm
+always looking to add more content for individuals like yourself, unfortuantely some of the APIs I would require me to
+pay monthly fees.
 
 **YouTube:**
 If you'd like to watch more of my content, feel free to visit my YouTube channel [Sigma Coding](https://www.youtube.com/c/SigmaCoding).
