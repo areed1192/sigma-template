@@ -22,7 +22,8 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
+          
+      - name: Install Dependencies from Requirements File.
         run: |
           python -m pip install --upgrade pip
           pip install flake8 pytest
@@ -38,4 +39,4 @@ jobs:
 
       - name: Test with pytest
         run: |
-          if tests/; then pytest; fi
+          if [ -f tests/test_client.py]; then pytest; fi
