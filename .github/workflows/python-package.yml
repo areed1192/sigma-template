@@ -39,4 +39,4 @@ jobs:
 
       - name: Test with pytest
         run: |
-          if [ -f tests/test_client.py]; then pytest; fi
+          if [ -f tests/test_client.py ]; then pytest; fi
